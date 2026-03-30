@@ -67,11 +67,11 @@
         <h2>Contactez-moi</h2>
         <p>Vous souhaitez en savoir plus ? Remplissez le formulaire ci-dessous.</p>
 
-        <form class="formulaire">
+        <form class="formulaire" action="https://formspree.io/f/mkoproqn" method="POST">
 
             <div class="champ">
                 <label>Votre prénom</label>
-                <input type="text" placeholder="Ex : Marie">
+                <input type="text" placeholder="Ex : Marie" name="prenom">
             </div>
 
             <div class="champ">
@@ -81,7 +81,7 @@
 
             <div class="champ">
                 <label>Votre message</label>
-                <textarea rows="5" placeholder="Décrivez votre situation"></textarea>
+                <textarea rows="5" placeholder="Décrivez votre situation"> name="message"</textarea>
             </div>
 
             <button type="submit">Envoyer mon message</button>
