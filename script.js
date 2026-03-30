@@ -1,4 +1,5 @@
 // Les 7 conseils - un par jour de la semaine
+document.addEventListener("DOMContentLoaded", function() {
 const conseils = [
      "Ne forcez jamais votre enfant à entrer dans l'eau. Respectez son rythme — chaque enfant avance à sa propre vitesse.",
     "Encouragez chaque petit progrès, même minime. Un regard confiant de votre part vaut plus que mille mots.",
@@ -14,3 +15,4 @@ const jourActuel = new Date().getDay();
 
 // on affiche le conseil du jour
 document.getElementById("conseil-du-jour").textContent = conseils[jourActuel];
+});
