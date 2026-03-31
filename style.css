@@ -1,3 +1,44 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0077b6;
+    padding: 15px 30px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.nav-logo {
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.nav-liens {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-liens a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 15px;
+    background-color: transparent;
+    padding: 0;
+    border-radius: 0;
+}
+
+.nav-liens a:hover {
+    text-decoration: underline;
+    background-color: transparent;
+}
 body {
     font-family: 'Poppins', sans-serif;
     max-width: 900px;
