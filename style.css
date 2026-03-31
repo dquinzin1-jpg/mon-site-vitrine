@@ -25,23 +25,6 @@
     padding: 0;
 }
 
-.nav-liens a {
-    color: white;
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 15px;
-    background-color: transparent;
-    padding: 0;
-    border-radius: 0;
-    display: inline;
-    width: auto;
-    margin: 0;
-}
-
-.nav-liens a:hover {
-    text-decoration: underline;
-    background-color: transparent;
-}
 body {
     font-family: 'Poppins', sans-serif;
     max-width: 900px;
@@ -85,6 +68,24 @@ a:hover {
     text-decoration: underline;
     background-color: #023e8a;
 }
+.nav-liens a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 15px;
+    background-color: transparent;
+    padding: 0;
+    border-radius: 0;
+    display: inline;
+    width: auto;
+    margin: 0;
+}
+
+.nav-liens a:hover {
+    text-decoration: underline;
+    background-color: transparent;
+}
+
 .header {
     background-image: url('fond-header.png');
     background-size: cover;
