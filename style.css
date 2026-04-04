@@ -87,9 +87,11 @@ a:hover {
     display: inline;
     width: auto;
     margin: 0;
+    transition: 0.3s;
 }
 
 .nav-liens a:hover {
+    color: #90e0ef;
     text-decoration: underline;
     background-color: transparent;
 }
