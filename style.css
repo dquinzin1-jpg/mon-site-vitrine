@@ -94,6 +94,17 @@ a:hover {
     color: #90e0ef;
     background-color: transparent;
 }
+.nav-liens.ouvert {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    background-color: #0077b6;
+    padding: 20px;
+    border-radius: 0 0 10px 10px;
+}
 
 .header {
     background-image: url('fond-header.png');
@@ -275,6 +286,9 @@ button:hover {
     }
     .header {
         padding: 20px;
+    }
+    .nav-logo {
+        white-space: nowrap;
     }
     .nav-liens {
         display: none;

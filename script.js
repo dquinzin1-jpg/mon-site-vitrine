@@ -20,10 +20,5 @@ document.addEventListener("DOMContentLoaded", function() {
 
 function toggleMenu() {
     const navLiens = document.querySelector('.nav-liens');
-    if (navLiens.style.display === 'flex') {
-        navLiens.style.display = 'none';
-    } else {
-        navLiens.style.display = 'flex';
-        navLiens.style.flexDirection = 'column';
-    }
+    navLiens.classList.toggle('ouvert');
 }
