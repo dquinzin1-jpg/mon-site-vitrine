@@ -131,6 +131,9 @@ a:hover {
     .section {
         padding: 15px;
     }
+    .carte-module {
+        width: 100%;
+    }
     a {
         width: 100px;
         text-align: center;
