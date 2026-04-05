@@ -103,6 +103,15 @@ a:hover {
     border-radius: 10px;
     margin-bottom: 30px;
 }
+.burger {
+    display: none;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 28px;
+    cursor: pointer;
+    padding: 0;
+}
 .section {
     background-color: linear-gradient(135deg, #ffffff 0%, #f0faff 100%);
     padding: 30px;
@@ -266,6 +275,12 @@ button:hover {
     }
     .header {
         padding: 20px;
+    }
+    .nav-liens {
+        display: none;
+    }
+    .burger {
+        display: block;
     }
     .section {
         padding: 15px;
