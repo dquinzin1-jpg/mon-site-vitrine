@@ -118,30 +118,7 @@ a:hover {
     font-size: 14px;
     border-top: 1px solid #ccc;
 }
-@media (max-width: 768px) {
-    body {
-        padding: 10px;
-    }
-    h1 {
-        font-size: 28px;
-    }
-    .header {
-        padding: 20px;
-    }
-    .section {
-        padding: 15px;
-    }
-    .carte-module {
-        width: 100%;
-    }
-    a {
-        width: 100px;
-        text-align: center;
-    }
-    .tarifs {
-        flex-direction: column;
-    }
-}
+
 .tarifs {
     display: flex;
     gap: 20px;
@@ -278,4 +255,29 @@ button:hover {
 .carte-module h3 {
     color: #0077b6;
     font-size: 16px;
+}
+
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+    h1 {
+        font-size: 28px;
+    }
+    .header {
+        padding: 20px;
+    }
+    .section {
+        padding: 15px;
+    }
+    .carte-module {
+        width: 100%;
+    }
+    a {
+        width: 100px;
+        text-align: center;
+    }
+    .tarifs {
+        flex-direction: column;
+    }
 }
