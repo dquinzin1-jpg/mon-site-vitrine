@@ -17,3 +17,13 @@ document.addEventListener("DOMContentLoaded", function() {
 // on affiche le conseil du jour
     document.getElementById("conseil-du-jour").textContent = conseils[jourActuel];
 });
+
+function toggleMenu() {
+    const navLiens = document.querySelector('.nav-liens');
+    if (navLiens.style.display === 'flex') {
+        navLiens.style.display = 'none';
+    } else {
+        navLiens.style.display = 'flex';
+        navLiens.style.flexDirection = 'column';
+    }
+}
