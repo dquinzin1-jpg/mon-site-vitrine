@@ -270,6 +270,9 @@ button:hover {
     .section {
         padding: 15px;
     }
+    .modules {
+        flex-direction: column;
+    }
     .carte-module {
         width: 100%;
     }
