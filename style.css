@@ -141,6 +141,14 @@ a:hover {
     margin-top: 30px;
     border-top: 1px solid #ccc;
 }
+.footer-col {
+    flex: 1;
+}
+.footer-col h3 {
+    color: #0077b6;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
 .footer-col a {
     color:#0077b6;
     background-color: transparent;
@@ -155,14 +163,7 @@ a:hover {
     text-decoration: underline;
     background-color: transparent;
 }
-.footer-col {
-    flex: 1;
-}
-.footer-col h3 {
-    color: #0077b6;
-    margin-bottom: 15px;
-    font-size: 16px;
-}
+
 .footer-col p, .footer-col li {
     font-size: 14px;
     color: #666;
@@ -346,5 +347,9 @@ button:hover {
     }
     .tarifs {
         flex-direction: column;
+    }
+    .footer-col {
+        width: auto;
+        text-align: left;
     }
 }
