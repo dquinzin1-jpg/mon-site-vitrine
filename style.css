@@ -164,6 +164,24 @@ a:hover {
     text-decoration: underline;
     background-color: transparent;
 }
+.btn-tarif {
+    display: inline-block !important;
+    margin-top: 20px !important;
+    background-color: #0077b6 !important;
+    color: white !important;
+    padding: 10px 20px !important;
+    border-radius: 25px !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    text-decoration: none !important;
+    text-align: center !important;
+    width: auto !important;
+}
+
+.btn-tarif:hover {
+    background-color: #023e8a !important;
+    text-decoration: none !important;
+}
 
 .footer-col p, .footer-col li {
     font-size: 14px;
