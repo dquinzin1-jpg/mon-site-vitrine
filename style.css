@@ -150,14 +150,15 @@ a:hover {
     font-size: 16px;
 }
 .footer-col a {
-    color:#0077b6;
-    background-color: transparent;
-    padding: 0;
-    border-radius: 0;
-    margin: 0;
-    font-weight: normal;
-    display: inline;
-    text-decoration: none;
+    color:#0077b6; !important;
+    background-color: transparent; !important;
+    padding: 0;!important;
+    border-radius: 0; !important;
+    margin: 0; !important;
+    font-weight: normal; !important;
+    display: inline; !important;
+    text-decoration: none; !important;
+    width: auto; !important;
 }
 .footer-col a:hover {
     text-decoration: underline;
