@@ -22,3 +22,14 @@ function toggleMenu() {
     const navLiens = document.querySelector('.nav-liens');
     navLiens.classList.toggle('ouvert');
 }
+const observateur = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+        }
+    });
+}, { threshold: 0.1 });
+
+document.querySelectorAll('.apparition').forEach(el => {
+    observateur.observe(el);
+});
