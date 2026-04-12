@@ -27,6 +27,26 @@ document.addEventListener("DOMContentLoaded", function() {
         observateur.observe(el);
     });
 
+    // FAQ accordéon
+    document.querySelectorAll('.faq-question').forEach(question => {
+        question.addEventListener('click', () => {
+          const reponse = question.nextElementSibling;
+          const estOuvert = question.classList.contains('ouvert');
+
+        // Fermer toutes les questions ouvertes
+        document.querySelectorAll('.faq-question').forEach(q => {
+            q.classList.remove('ouvert');
+            q.nextElementSibling.style.maxHeight = null;
+        });
+
+        // Si la question n'était pas ouverte, l'ouvrir
+        if (!estOuvert) {
+            question.classList.add('ouvert');
+            reponse.style.maxHeight = reponse.scrollHeight + 'px';
+        }
+    });
+});
+
 });
 
 function toggleMenu() {
