@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nage & Noé - Éveil aquatique pour enfants</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="script.js"></script>
 </head>
 <body>
     
@@ -16,14 +16,13 @@
             <li><a href="#methode">Méthode</a></li>
             <li><a href="#modules">Modules</a></li>
             <li><a href="#tarifs">Tarifs</a></li>
-            <li><a href="#contact">Contact </a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
 
-    <div class="header">
-    </div>
+    <div class="header"></div>
 
-     <div class="hero apparition">
+    <div class="hero apparition">
         <div class="hero-badge">🌊 Éveil aquatique par un MNS diplômé</div>
         <h1>Votre enfant mérite d'être <span class="hero-accent">en confiance</span> dans l'eau</h1>
         <p>Méthode créée par un Maître-Nageur Sauveteur diplômé pour accompagner les parents dans l'apprentissage aquatique de leur enfant — en toute sécurité.</p>
@@ -38,107 +37,90 @@
         </div>
     </div>
 
-    <div class="section">
+    <div class="section apparition">
         <h2>Conseil du jour</h2>
         <p id="conseil-du-jour"></p>
     </div>
 
-    <div class="section" id="methode">
+    <div class="section apparition" id="methode">
         <h2>Ma méthode pédagogique</h2>
         <p>Une approche douce, progressive et adaptée à chaque enfant pour développer sa confiance dans l'eau.</p>
     </div>
 
-    <div class="section" id="apropos">
+    <div class="section apparition" id="apropos">
         <h2>À propos</h2>
         <p>Je suis Dylan, maître-nageur sauveteur diplômé (BPJEPS AAN) depuis 2022, formé au sein de Récréa. Passionné par la pédagogie et la transmission, j'accompagne chaque jour parents et enfants dans leur rapport à l'eau.</p>
-    
         <h3>Pourquoi Nage & Noé ?</h3>
         <p>J'ai créé Nage & Noé pour rendre accessible une pédagogie bienveillante de l'eau. Parce que l'eau devrait rimer avec éclats de rire, pas avec larmes. Parce que les premiers souvenirs aquatiques d'un enfant se gravent pour la vie — autant qu'ils soient beaux.</p>
-    
         <h3>Ma philosophie</h3>
         <p>Nous nous souvenons tous de notre maître-nageur. Parfois avec le sourire, parfois avec une boule au ventre. Beaucoup d'adultes gardent aujourd'hui une appréhension de l'eau à cause d'expériences difficiles vécues enfants. Chez Nage & Noé, je m'engage à faire exactement l'inverse : avancer à votre rythme, respecter celui de votre enfant, et transformer chaque séance en souvenir dont vous serez fiers.</p>
     </div>
 
-    <div class="section">
+    <div class="section apparition">
         <h2>Pour qui ?</h2>
         <p>Cette méthode s'adresse aux parents qui souhaitent initier leurs enfants à l'eau en toute sécurité et en toute confiance.</p>
     </div>
 
-    <div class="section" id="modules">
+    <div class="section apparition" id="modules">
         <h2>Les 6 modules de la méthode</h2>
-
         <div class="modules">
-
-            <div class="carte-module apparition">
+            <div class="carte-module">
                 <span class="numero">1</span>
                 <img src="module-1.png" alt="Découverte du milieu">
                 <h3>Découverte du milieu</h3>
             </div>
-
-            <div class="carte-module apparition">
+            <div class="carte-module">
                 <span class="numero">2</span>
                 <img src="module-2.png" alt="Flottaison">
                 <h3>Flottaison</h3>
             </div>
-
-            <div class="carte-module apparition">
+            <div class="carte-module">
                 <span class="numero">3</span>
                 <img src="module-3.png" alt="Équilibre">
                 <h3>Équilibre</h3>
             </div>
-
-            <div class="carte-module apparition">
+            <div class="carte-module">
                 <span class="numero">4</span>
                 <img src="module-4.png" alt="Se mouvoir en 3D">
                 <h3>Se mouvoir en 3D</h3>
             </div>
-
-            <div class="carte-module apparition">
+            <div class="carte-module">
                 <span class="numero">5</span>
                 <img src="module-5.png" alt="Corps projectile">
                 <h3>Corps projectile</h3>
             </div>
-
-            <div class="carte-module apparition">
+            <div class="carte-module">
                 <span class="numero">6</span>
                 <img src="module-6.png" alt="Optimisation du déplacement">
                 <h3>Optimisation du déplacement</h3>
             </div>
         </div>
     </div>
-    
-    <div class="section" id="contact">
+
+    <div class="section apparition" id="contact">
         <h2>Contactez-moi</h2>
         <p>Vous souhaitez en savoir plus ? Remplissez le formulaire ci-dessous.</p>
-
         <form class="formulaire" action="https://formspree.io/f/mkoproqn" method="POST">
-
             <div class="champ">
                 <label>Votre prénom</label>
                 <input type="text" placeholder="Ex : Marie" name="prenom">
             </div>
-
             <div class="champ">
                 <label>Votre email</label>
-                <input type="email" placeholder="Ex : marie@email.com">
+                <input type="email" placeholder="Ex : marie@email.com" name="email">
             </div>
-
             <div class="champ">
                 <label>Votre message</label>
                 <textarea rows="5" placeholder="Décrivez votre situation" name="message"></textarea>
             </div>
-
             <button type="submit">Envoyer mon message</button>
         </form>
-        
     </div>
 
-    <div class="section" id="tarifs">
+    <div class="section apparition" id="tarifs">
         <h2>Nos formules</h2>
-
         <div class="tarifs">
-
-            <div class="carte-tarif apparition">
+            <div class="carte-tarif">
                 <h3>Pack Aisance Aquatique</h3>
                 <p class="prix">79,99€ <span>achat unique</span></p>
                 <ul>
@@ -148,8 +130,7 @@
                 </ul>
                 <a href="#contact" class="btn-tarif">Choisir cette formule</a>
             </div>
-
-            <div class="carte-tarif apparition">
+            <div class="carte-tarif">
                 <h3>Abonnement Parents</h3>
                 <p class="prix">14,99€ <span>/mois</span></p>
                 <ul>
@@ -159,8 +140,7 @@
                 </ul>
                 <a href="#contact" class="btn-tarif">Choisir cette formule</a>
             </div>
-
-            <div class="carte-tarif recommande apparition">
+            <div class="carte-tarif recommande">
                 <p class="badge">Recommandé</p>
                 <h3>Abonnement Super Parents</h3>
                 <p class="prix">29,99€ <span>/mois</span></p>
@@ -171,11 +151,10 @@
                 </ul>
                 <a href="#contact" class="btn-tarif">Choisir cette formule</a>
             </div>
-
         </div>
     </div>
 
-    <footer class="footer">
+    <footer class="footer apparition">
         <div class="footer-col">
             <h3>Nage & Noé</h3>
             <p>Un enfant ne doit jamais être dans l'eau sans surveillance d'un adulte.</p>
@@ -189,16 +168,18 @@
                 <li><a href="#tarifs">Tarifs</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
-         </div>
+        </div>
         <div class="footer-col">
             <h3>Contact</h3>
             <p>contact@nageetnoe.fr</p>
             <p>Suivez-nous sur les réseaux :</p>
             <ul>
-            <li><a href="#">Instagram</a></li>
-            <li><a href="#">Facebook</a></li>
-        </ul>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Facebook</a></li>
+            </ul>
         </div>
-    </footer>    
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
