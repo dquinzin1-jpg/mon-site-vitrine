@@ -113,7 +113,44 @@ a:hover {
     height: 250px;
     border-radius: 10px;
     margin-bottom: 30px;
+    position: relative;
 }
+
+.header-contenu {
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+}
+
+.header-contenu h1 {
+    color: #023e8a;
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+
+.header-contenu p {
+    color: #0077b6;
+    font-size: 14px;
+    margin-bottom: 16px;
+}
+
+.btn-hero {
+    background-color: #0077b6 !important;
+    color: white !important;
+    padding: 12px 24px !important;
+    border-radius: 25px !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    text-decoration: none !important;
+    display: inline-block !important;
+    transition: background-color 0.3s !important;
+}
+
+.btn-hero:hover {
+    background-color: #023e8a !important;
+    text-decoration: none !important;
+}
+
 .burger {
     display: none;
     background-color: transparent;
