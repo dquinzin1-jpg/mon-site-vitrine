@@ -253,7 +253,8 @@ a:hover {
     border-radius: 10px;
     padding: 15px;
     text-align: center;
-    width: calc(33% - 14px);
+    flex: 1 1 calc(33.333% - 20px);
+    max-width: calc(33.333% - 20px);
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     position: relative;
     transition: transform 0.3s, box-shadow 0.3s;
