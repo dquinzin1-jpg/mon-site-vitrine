@@ -110,7 +110,7 @@ a:hover {
     background-image: url('fond-header.png');
     background-size: cover;
     background-position: center;
-    height: 250px;
+    height: 350px;
     border-radius: 10px;
     margin-bottom: 30px;
     position: relative;
@@ -128,7 +128,7 @@ a:hover {
 
 .header-contenu h1 {
     color: #023e8a;
-    font-size: 28px;
+    font-size: 18px;
     margin-bottom: 8px;
 }
 
